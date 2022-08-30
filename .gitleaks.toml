@@ -1,0 +1,11 @@
+[allowlist]
+  description = "Repo Allowlist"
+  paths = [
+    # Some test ignores for working with the scanner's unit tests
+    '''collections''',
+    '''roles''',
+
+    # Ignore the .gitleaks.toml
+    '''\.gitleaks\.toml$''',
+  ]
+
